@@ -811,38 +811,35 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* Container giới hạn chiều ngang */
 .footer .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 60px 20px;
     display: flex;
     justify-content: space-between;
-    gap: 60px; /* Khoảng cách giữa thông tin và bản đồ */
+    gap: 60px; 
 }
 
-/* Tiêu đề xanh dương */
 .office-title {
-    color: #005bac; /* Màu xanh chuẩn trong ảnh */
+    color: #005bac; 
     font-size: 32px;
     font-weight: 700;
     margin: 0 0 45px 0;
     letter-spacing: -0.5px;
 }
 
-/* Bố cục bảng thông tin */
 .office-content {
-    flex: 1.2; /* Chiếm nhiều diện tích hơn một chút */
+    flex: 1.2;
 }
 
 .office-info .info-row {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 22px; /* Khoảng cách giữa các hàng */
+    margin-bottom: 22px; 
 }
 
 .info-label {
-    width: 150px; /* Độ rộng cột nhãn bên trái */
+    width: 150px; 
     font-weight: 700;
     color: #333;
     font-size: 16px;
@@ -857,7 +854,6 @@
     font-weight: 500;
 }
 
-/* Bản đồ bo góc */
 .office-map {
     flex: 1;
 }
@@ -867,10 +863,10 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-/* --- PHẦN CHỮ XANH DƯỚI CÙNG --- */
+
 .footer-bottom {
-    background-color: #005bac; /* Xanh đặc trưng */
-    padding: 35px 0; /* Giãn cách trên dưới thoáng hơn */
+    background-color: #005bac; 
+    padding: 35px 0; 
     text-align: center;
 }
 
@@ -888,14 +884,13 @@
 }
 
 .footer-bottom .copyright {
-    margin-bottom: 12px; /* Khoảng cách giữa 2 dòng chữ trắng */
+    margin-bottom: 12px;
 }
 
 .footer-bottom .disclaimer {
     font-size: 15px;
 }
 
-/* Responsive */
 @media (max-width: 992px) {
     .footer .container {
         flex-direction: column;
